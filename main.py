@@ -2,12 +2,11 @@
 Ref.
 https://pikepdf.readthedocs.io/en/latest/tutorial.html
 """
-
-from PyPDF2 import PdfFileReader, PdfFileWriter, PdfFileMerger
-from glob import glob
 import os
-from natsort import natsorted # pip install natsort
-import pikepdf #pip install pikepdf
+from glob import glob
+from PyPDF2 import PdfFileReader, PdfFileWriter, PdfFileMerger      # pip install PyPDF2
+from natsort import natsorted                                       # pip install natsort
+import pikepdf                                                      # pip install pikepdf
 
 
 
